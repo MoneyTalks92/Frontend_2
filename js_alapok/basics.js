@@ -88,7 +88,7 @@ while (n >= 0) {
 
 const szamok = [2, 5, 4, 3];
 
-console.log('a tömb hossza: ' + szamok.length)
+console.log('a tömb hossza: ' + szamok.length);
 
 
 // az i változó csak a for cikluson belül létezik
@@ -130,4 +130,4 @@ console.log(isNan(eredmeny));
 
 '' == '\n'; // false
 
-console.log('ez egy uj sor:\n uj sorba kerül')
+console.log('ez egy uj sor:\n uj sorba kerül');

@@ -1,6 +1,8 @@
 import './css/style.css';
 import './index.html';
-import SearchImage from './searchImageComponent/searchImageComponent.js';
+import ListBreeds from './listBreedsComponent/listBreedsComponent';
+import SearchImage from './searchImageComponent/searchImageComponent';
 
-const mySearchImage = new SearchImage();
-mySearchImage.render();
+new SearchImage();
+
+new ListBreeds();
